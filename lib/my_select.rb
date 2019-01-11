@@ -1,5 +1,4 @@
 
 def my_select(array)
-  array.select do |num|
-return num
+  array.select do {|num| num(+1)}
 end
