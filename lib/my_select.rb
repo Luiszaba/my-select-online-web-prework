@@ -1,6 +1,5 @@
 
 def my_select(array)
   array.select do |num|
-    num.even?
-  end
-  
+return num
+end
